@@ -58,7 +58,17 @@ Output:             ./page.md
 ## 🙋‍♂️ Why
 
 - Atlassian doesn’t support Markdown export natively
-- This makes it dead simple to extract content without dealing with copy/paste weirdness
+- This makes it dead simple to extract content without dealing with a browser
+
+---
+
+## ⚠️ Heads up
+
+- Macros like Jira links, attachments, and embedded diagrams (Mermaid, etc.) will show up as raw `<ac:*>` tags
+- Attachments aren’t downloaded
+- Some cleanup might still be needed for edge cases like nested formatting
+
+For most text-heavy pages, it just works.
 
 ---
 
