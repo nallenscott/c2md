@@ -64,7 +64,7 @@ Output:             ./page.md
 
 ## ⚠️ Heads up
 
-- Macros like Jira links, attachments, and embedded diagrams (Mermaid, etc.) will show up as raw `<ac:*>` tags
+- Macros like Jira links, attachments, and embedded diagrams will show up as raw `<ac:*>` tags
 - Attachments aren’t downloaded
 - Some cleanup might still be needed for edge cases like nested formatting
 
