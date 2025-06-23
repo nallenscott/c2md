@@ -2,7 +2,7 @@
 
 **c2md** is a one-liner CLI tool for exporting Confluence pages to Markdown.
 
-It fetches the raw XHTML using the Atlassian REST API and converts it to clean, portable Markdown using `pandoc`.
+It fetches the raw XHTML using the Atlassian API and converts it to clean, portable Markdown using `pandoc`.
 
 No cloning, no browser, no nonsense.
 
